@@ -1,0 +1,48 @@
+@import "../../styles/variables.scss";
+
+.weather-opts-section {
+  height: 120px;
+
+  .weather-opt {
+    width: fit-content;
+    border-radius: $x-small;
+  }
+}
+
+
+.day {
+  min-width: 180px;
+}
+
+@media ( max-width: 980px ) {
+  .weather-items-container {
+    justify-content: flex-start;
+  }
+}
+
+@media ( max-width: 840px ) {
+  .weather-opts-section {
+    justify-content: flex-start;
+    height: 84px;
+    padding: $medium;
+  }
+
+  .weather-opt {
+    min-width: max-content;
+    margin-right: $small;
+  }
+}
+
+
+@media ( max-width: 550px ) {
+  .weather-opt {
+    max-width: none;
+    min-width: max-content;
+    margin: 0;
+    margin-right: $small;
+  }
+
+  h2 {
+    margin-bottom: $large;
+  }
+}

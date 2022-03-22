@@ -1,0 +1,72 @@
+//Margin Small
+.mv-s {
+  margin-top: $small;
+  margin-bottom: $small;
+}
+
+.mh-s {
+  margin-left: $small;
+  margin-right: $small;
+}
+
+.m-s {
+  margin: $small;
+}
+
+//Margin Medium
+.mv-m {
+  margin-top: $medium;
+  margin-bottom: $medium;
+}
+
+.mh-m {
+  margin-left: $medium;
+  margin-right: $medium;
+}
+
+.m-m {
+  margin: $medium;
+}
+
+//Margin Large
+.mv-l {
+  margin-top: $large;
+  margin-bottom: $large;
+}
+
+.mh-l {
+  margin-left: $large;
+  margin-right: $large;
+}
+
+.m-l {
+  margin: $large;
+}
+
+//Margin Bottom
+.mb-s {
+  margin-bottom: $small;
+}
+
+.mb-m {
+  margin-bottom: $medium;
+}
+
+.mb-l {
+  margin-bottom: $large;
+}
+
+//Padding Small
+.pv-s {
+  padding-top: $small;
+  padding-bottom: $small;
+}
+
+.ph-s {
+  padding-left: $small;
+  padding-right: $small;
+}
+
+.p-s {
+  padding: $small;
+}

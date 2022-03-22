@@ -1,0 +1,39 @@
+//Padding Medium
+.pv-m {
+  padding-top: $medium;
+  padding-bottom: $medium;
+}
+
+.ph-m {
+  padding-left: $medium;
+  padding-right: $medium;
+}
+
+.p-m {
+  padding: $medium;
+}
+
+//Padding Large
+.pv-l {
+  padding-top: $large;
+  padding-bottom: $large;
+}
+
+.pv-xl {
+  padding-top: $x-large;
+  padding-bottom: $x-large;
+}
+
+.ph-l {
+  padding-left: $large;
+  padding-right: $large;
+}
+
+.ph-xl {
+  padding-left: $x-large;
+  padding-right: $x-large;
+}
+
+.p-l {
+  padding: $large;
+}

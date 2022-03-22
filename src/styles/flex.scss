@@ -1,0 +1,41 @@
+//Flex
+.dflex {
+  display: flex;
+}
+
+.dflex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.dflex-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dflex-around {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dflex-d-column {
+  flex-direction: column;
+}
+
+.dflex-auto {
+  flex: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-scroll {
+  overflow: auto;
+
+  @media only screen and (max-width: 768px) {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

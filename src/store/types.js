@@ -1,0 +1,4 @@
+export const SET_COUNTRY = 'SET_COUNTRY'
+export const FETCH_START = 'FETCH_START'
+export const FETCH_SUCCEEDED = 'FETCH_SUCCEEDED'
+export const FETCH_FAILED = 'FETCH_FAILED'
